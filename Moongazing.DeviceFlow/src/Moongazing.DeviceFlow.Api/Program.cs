@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+using Moongazing.DeviceFlow.Api.Context;
 using Moongazing.DeviceFlow.Api.Hubs;
 using Moongazing.DeviceFlow.Api.Services;
 using Moongazing.DeviceFlow.Api.Services.Devices;
@@ -7,6 +9,10 @@ using Moongazing.DeviceFlow.Api.Services.Locations;
 using Moongazing.DeviceFlow.Api.Services.Sensors;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<IoTDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
 
 builder.Services.AddScoped<IDeviceService, DeviceService>();
 builder.Services.AddScoped<ISensorDataService, SensorDataService>();
