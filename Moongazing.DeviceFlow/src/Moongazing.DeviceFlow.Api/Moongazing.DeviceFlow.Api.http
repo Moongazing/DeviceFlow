@@ -1,0 +1,6 @@
+@Moongazing.DeviceFlow.Api_HostAddress = http://localhost:5271
+
+GET {{Moongazing.DeviceFlow.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

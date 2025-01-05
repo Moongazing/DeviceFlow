@@ -5,8 +5,25 @@ VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AF1C7C11-4A36-43EC-A174-0D72C8F9C0DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.DeviceFlow.Api", "src\Moongazing.DeviceFlow.Api\Moongazing.DeviceFlow.Api.csproj", "{FAE5FA34-1B63-47A5-9A07-2B42EF93C273}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{450A65A2-6BB9-4CBF-B268-C62229B721D5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAE5FA34-1B63-47A5-9A07-2B42EF93C273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE5FA34-1B63-47A5-9A07-2B42EF93C273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE5FA34-1B63-47A5-9A07-2B42EF93C273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE5FA34-1B63-47A5-9A07-2B42EF93C273}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAE5FA34-1B63-47A5-9A07-2B42EF93C273} = {AF1C7C11-4A36-43EC-A174-0D72C8F9C0DA}
 	EndGlobalSection
 EndGlobal
