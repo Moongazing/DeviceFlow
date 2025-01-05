@@ -1,6 +1,6 @@
 # DeviceFlow
 
-**DeviceFlow** is a senior-level IoT Dashboard application designed to manage and visualize real-time data from IoT devices. It leverages modern technologies such as **.NET 8**, **Entity Framework Core**, **MQTT**, **SignalR**, and **Angular** to provide a robust and scalable platform for IoT device management and telemetry data visualization.
+**DeviceFlow** is a senior-level IoT Dashboard application designed to manage and visualize real-time data from IoT devices. It leverages modern technologies such as **.NET 9**, **Entity Framework Core**, **MQTT**, **SignalR**, and **Angular** to provide a robust and scalable platform for IoT device management and telemetry data visualization.
 
 ---
 
@@ -32,7 +32,7 @@
 ## **Setup Instructions**
 
 ### **Prerequisites**
-- **.NET 8 SDK** installed
+- **.NET 9 SDK** installed
 - **Node.js** and **Angular CLI** for the frontend
 - A **SQL Server** or **PostgreSQL** database
 - **MQTT Broker** (e.g., HiveMQ or Mosquitto)
